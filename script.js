@@ -1,20 +1,11 @@
 // script.js
 
-document.addEventListener("DOMContentLoaded", function() {
-    const toggleMenu = document.getElementById("toggleMenu");
-    const navLinks = document.querySelector(".nav-links");
+const menuToggle = document.getElementById('menu-toggle');
+const navLinks = document.getElementById('nav-links');
 
-    toggleMenu.addEventListener("click", function() {
-        if (navLinks.classList.contains("active")) {
-            navLinks.classList.remove("active");
-            console.log("Menu hidden");
-        } else {
-            navLinks.classList.add("active");
-            console.log("Menu shown");
-        }
-    });
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
 });
-
 
 
 
