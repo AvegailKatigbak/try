@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">        
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="Logo.png" alt="Logo" class="logo">
+            <div class="toggle-menu" id="toggleMenu">☰</div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#hero" class="nav-link">HOME</a></li>
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#blog" class="nav-link">BLOG</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Hello, I'm</h2>
+                    <h1>AVEGAIL</h1>
+                    <h1>KATIGBAK</h1>
+                    <p>I specialize in refining and perfecting written content to ensure clarity, coherence, and adherence to style guidelines.</p>
+                    <button type="submit" class="btn">BROWSE</button>
+                </div>
+                <div class="hero-image">
+                    <img src="pic1.png" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="pic2.png" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h2>ABOUT ME</h2>
+                    <h3>AVEGAIL KATIGBAK</h3>
+                    <p>Meet Ave, a passionate designer and avid travel blogger who finds inspiration in the world's hidden gems and bustling cities alike. With a keen eye for detail and a love for storytelling, Ave combines design expertise with travel adventures to create captivating content that sparks wanderlust and creativity. Join me on a journey of discovery, where every destination becomes a canvas and every experience a story worth sharing.</p>
+                    <button type="submit" class="btn">BROWSE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <div class="gallery">
+                <div class="item">
+                    <img src="item1.png" alt="Blog Item 1">
+                    <h3>Tokyo Stroll</h3>
+                    <p>A grainy black and white scene captures a bustling city street. Sunlight falls on a towering building...</p>
+                    <button type="submit" class="btn">BROWSE</button>
+                </div>
+                <div class="item">
+                    <img src="item2.png" alt="Blog Item 2">
+                    <h3>Minimalist Haven</h3>
+                    <p>Comfortable chairs flank a sleek coffee table, offering a perfect spot for quiet moments...</p>
+                    <button type="submit" class="btn">BROWSE</button>
+                </div>
+                <div class="item">
+                    <img src="item3.png" alt="Blog Item 3">
+                    <h3>Brick Facade</h3>
+                    <p> Rough brickwork catches the light in a black and white close-up of a weathered urban facade.</p>
+                    <button type="submit" class="btn">BROWSE</button>
+                </div>
+            </div>
+        </div>
+    </section>              
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>CONTACT ME!</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in touch easily!</h3>
+                    <p>Feel free to contact me if you have any questions or project inquiries.</p>
+                    <p>Email: info@example.com<br>Phone: +123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/aveecutiee" target="_blank">
+                          <img src="Facebook.png" alt="Facebook" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.instagram.com/aveeeyours" target="_blank">
+                          <img src="Instagram.png" alt="Instagram" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.twitter.com/aktgbk" target="_blank">
+                          <img src="TwitterX.png" alt="Twitter" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://www.linkedin.com/in/avegail-katigbak-893932318/" target="_blank">
+                          <img src="LinkedIn.png" alt="LinkedIn" style="width: 50px; height: 50px;">
+                        </a>
+                        <a href="https://github.com/AvegailKatigbak" target="_blank">
+                          <img src="Github.png" alt="Github" style="width: 35px; height: 35px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="submit-form.php" method="POST">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; All rights reserved!</p>
+        </div>
+    </footer>     
+     <script src="scripts.js"></script>
+
+</body>
+</html>
+
+
